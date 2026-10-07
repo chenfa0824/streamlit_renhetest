@@ -1,0 +1,27 @@
+[server]
+#port = 8888
+enableStaticServing = true
+
+[client]
+#去除streamlit复制的默认提醒
+toolbarMode = "minimal"
+#侧边栏默认折叠
+#showSidebarNavigation = false
+
+[theme]
+base = "light"                      # 继承自 Streamlit 的浅色主题
+primaryColor = "#FF4B4B"           # 主色调 (红色)
+backgroundColor = "#FFFFFF"         # 主背景色 (白色)
+secondaryBackgroundColor = "#F0F2F6" # 侧边栏和组件背景色
+textColor = "#111111"              # 文字颜色
+font = "sans serif"                # 字体
+
+# 读取自定义配置
+# host = st.secrets["mysql_host"]
+[database]
+mysql_host = "localhost"
+mysql_password = "your_password"
+
+# 根级别的键
+OPENAI_API_KEY = "sk-..."
+# 分组的键
