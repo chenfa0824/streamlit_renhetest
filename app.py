@@ -60,11 +60,6 @@ elementui3 = st.Page("streamlit/ui/elementui3.py", title="elementui3", icon="�
 liang1 = st.Page("liangliang/liang1.py", title="liang1", icon="🏠")
 liang2 = st.Page("liangliang/liang2.py", title="liang2", icon="🏠")
 liang3 = st.Page("liangliang/liang3.py", title="liang3", icon="🏠")
-# jacoco
-jacocoHtml = st.Page("jacoco/jacocoHtml.py", title="系统设置", icon="⚙️")
-jacocoXml = st.Page("jacoco/jacocoXml.py", title="个人资料", icon="👤")
-autotest = st.Page("autotest/autotest.py", title="autotest", icon="📊")
-autotest2 = st.Page("autotest/autotest2.py", title="autotest2", icon="📈")
 # mock
 mock1 = st.Page("mock/mock1.py", title="mock1", icon="📊")
 mock2 = st.Page("mock/mock2.py", title="mock2", icon="📈")
@@ -79,9 +74,7 @@ pg = st.navigation({
     "SQL": [mysql1, mysql2, postgresql1, postgresql2],
     "CRM": [chufeng3, chufeng1, chufeng2,xunjian, xunjian2, salary],
     "HRM": [createOffer, createOffer2, hrmUpdate, hrmCheck],
-    # "Jacoco": [jacocoHtml, jacocoXml],
-    # "工具": [xmind1, xmind2, crm_api, hrm_api, git_branch],
-    # "项目": [liang1, liang2, liang3,mock1, mock2],
+
 
 })
 
